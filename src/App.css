@@ -1,0 +1,97 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+  margin: 2rem;
+}
+
+.product-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  height: 300px;
+  width: 500px;
+}
+p{
+  text-align: center;
+  font-weight: bold;
+}
+
+.cart-container {
+  flex: 1; /* To take up the remaining space */
+  text-align: center;
+  border: #007bff;
+  
+  
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+  margin: 2rem;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+
+
+
+.product-card {
+
+
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-title {
+  font-size: 16px;
+  margin: 1rem 0;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.add-to-cart-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
